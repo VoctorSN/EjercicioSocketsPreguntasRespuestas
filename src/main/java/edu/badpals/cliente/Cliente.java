@@ -40,7 +40,7 @@ public class Cliente {
 
             respuesta = fentrada.readLine(); //INTENTO LEER LA RESPUESTA DEL SERVIDOR
             if(respuesta != null){
-                System.out.println("LA RESPUESTA DEL SERVIDOR ES: " + respuesta); // ENSEÑO LA RESPUESTA
+                System.out.println(respuesta); // ENSEÑO LA RESPUESTA
             }
 
             } while (!pregunta.equals("SALIR")); // CUANDO LEA SALIR SALE DEL BUCLE
